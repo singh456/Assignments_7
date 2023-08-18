@@ -1,0 +1,132 @@
+Product	Quantity	Price	purchase_cost	Estimated_sale_price	Month
+BusiCard	1	4000.99	NULL	3500	2
+PayCard	2	300.45	8000.87	9000.56	1
+PayCard	2	800.45	5000.8	8700.56	1
+PayCard	2	500.45	6000.47	7400.56	1
+PayPoints	4	390.87	7000.67	6700.56	2
+SmartPay	5	290.69	5600.77	3200.12	1
+MaxGain	3	NULL	4600.67	3233.11	1
+MaxGain	6	220.39	4690.67	NULL	2
+SuperSave	7	290.3	NULL	3200.13	1
+SuperSave	6	560.3	NULL	4200.13	1
+SuperSave	6	NULL	2600.77	3200.13	2
+SuperSave	9	NULL	5400.71	9200.13	3
+SmartSav	3	250.89	5900.97	NULL	1
+SmartSav	3	250.89	5900.97	8999.34	1
+SmartSav	3	250.89	NULL	5610.82	2
+EasyCash	3	250.89	NULL	5610.82	1
+EasyCash	3	250.89	NULL	5610.82	2
+EasyCash	3	250.89	NULL	5610.82	3
+BusiCard	1	3000.99	NULL	3500	3
+BusiCard	1	4000.99	NULL	3500	2
+BusiCard	1	4000.99	NULL	3500	2
+BusiCard	1	3000.99	NULL	3500	3
+
+
+
+
+
+1) Which product has the highest estimated sale price, and what is the price?
+
+The product with the highest estimated sale price is "PayCard" with a price of $9000.56.
+
+
+
+
+2) Calculate the total profit for each product (Estimated Sale Price - Purchase Cost).
+
+Here's the calculated total profit for each product based on the given data:
+
+BusiCard: $3500 - (NULL) = NULL
+PayCard: $9000.56 - $8000.87 = $999.69
+PayCard: $8700.56 - $5000.8 = $3699.76
+PayCard: $7400.56 - $6000.47 = $1399.09
+PayPoints: $6700.56 - $7000.67 = -$300.11
+SmartPay: $3200.12 - $5600.77 = -$2399.65
+MaxGain: $3233.11 - $4600.67 = -$1367.56
+MaxGain: NULL - $4690.67 = NULL
+SuperSave: $3200.13 - (NULL) = NULL
+SuperSave: $4200.13 - (NULL) = NULL
+SuperSave: $3200.13 - $2600.77 = $599.36
+SuperSave: $9200.13 - $5400.71 = $3799.42
+SmartSav: NULL - $5900.97 = NULL
+SmartSav: $8999.34 - $5900.97 = $3098.37
+SmartSav: $5610.82 - $250.89 = $5359.93
+EasyCash: $5610.82 - $250.89 = $5360.93
+EasyCash: $5610.82 - $250.89 = $5360.93
+EasyCash: $5610.82 - $250.89 = $5360.93
+BusiCard: $3500 - (NULL) = NULL
+BusiCard: $3500 - (NULL) = NULL
+BusiCard: $3500 - (NULL) = NULL
+BusiCard: $3500 - (NULL) = NULL
+
+
+
+3) How many products have missing values in the "purchase_cost" column?
+
+There are 9 products with missing values in the "purchase_cost" column.
+
+
+
+4) Calculate the total purchase cost for each product.
+
+Here's the calculated total purchase cost for each product based on the given data:
+
+BusiCard: NULL (Missing value)
+PayCard: $8000.87 + $5000.8 + $6000.47 = $19002.14
+PayCard: $8000.87 + $5000.8 + $6000.47 = $19002.14
+PayCard: $8000.87 + $5000.8 + $6000.47 = $19002.14
+PayPoints: $7000.67 = $7000.67
+SmartPay: $5600.77 = $5600.77
+MaxGain: $4600.67 + $4690.67 = $9291.34
+MaxGain: $4600.67 + $4690.67 = $9291.34
+SuperSave: NULL (Missing value)
+SuperSave: NULL (Missing value)
+SuperSave: $2600.77 = $2600.77
+SuperSave: $5400.71 = $5400.71
+SmartSav: $5900.97 = $5900.97
+SmartSav: $5900.97 = $5900.97
+SmartSav: $250.89 = $250.89
+EasyCash: $250.89 = $250.89
+EasyCash: $250.89 = $250.89
+EasyCash: $250.89 = $250.89
+BusiCard: NULL (Missing value)
+BusiCard: NULL (Missing value)
+BusiCard: NULL (Missing value)
+BusiCard: NULL (Missing value)
+
+
+
+
+
+5) Calculate the total revenue for each product (Quantity * Estimated Sale Price).
+
+Here's the calculated total revenue for each product based on the given data:
+
+BusiCard: 1 * $3500 = $3500
+PayCard: 2 * $9000.56 = $18001.12
+PayCard: 2 * $8700.56 = $17401.12
+PayCard: 2 * $7400.56 = $14801.12
+PayPoints: 4 * $6700.56 = $26802.24
+SmartPay: 5 * $3200.12 = $16000.60
+MaxGain: 3 * $3233.11 = $9699.33
+MaxGain: 6 * NULL = NULL
+SuperSave: 7 * $3200.13 = $22400.91
+SuperSave: 6 * $4200.13 = $25200.78
+SuperSave: 6 * $3200.13 = $19200.78
+SuperSave: 9 * $9200.13 = $82801.17
+SmartSav: 3 * $5900.97 = $17702.91
+SmartSav: 3 * $8999.34 = $26998.02
+SmartSav: 3 * $5610.82 = $16832.46
+EasyCash: 3 * $5610.82 = $16832.46
+EasyCash: 3 * $5610.82 = $16832.46
+EasyCash: 3 * $5610.82 = $16832.46
+BusiCard: 1 * $3500 = $3500
+BusiCard: 1 * $3500 = $3500
+BusiCard: 1 * $3500 = $3500
+BusiCard: 1 * $3500 = $3500
+
+
+
+
+
